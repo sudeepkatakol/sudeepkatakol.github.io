@@ -1,6 +1,6 @@
 ---
 title: 'Unsupervised Adversarial Image Reconstruction'
-date: 2010-01-16
+date: 2019-01-16
 permalink: /posts/2019/01/uair/
 tags:
   - Machine learning
