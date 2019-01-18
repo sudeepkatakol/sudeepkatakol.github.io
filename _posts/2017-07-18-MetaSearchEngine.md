@@ -7,4 +7,4 @@ tags:
   - Deep learning
 ---
 
-Click <a href="https://penzu.com/public/561e8502">here</a> check out the post on my project MetaSearchEngine on Penzu.
+Click <a href="https://penzu.com/public/561e8502">here</a> check out the post on my project <b>MetaSearchEngine </b> on Penzu.
