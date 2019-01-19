@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2018-fall-neural-networks
 venue: "BITS Pilani KK Birla Goa Campus, Department of Computer Science"
-date: 2017-08-01
+date: 2018-08-01
 location: "Goa, India"
 
 ---
