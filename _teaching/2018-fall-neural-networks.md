@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "Neural Networks: Teaching Assistant"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2018-fall-neural-networks
