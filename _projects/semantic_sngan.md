@@ -3,7 +3,6 @@ title: "Semantic SNGAN"
 collection: projects
 type: "Projects"
 permalink: /projects/semantic_sngan
-date: 2018-09-01
 location: "Goa, India"
 
 ---
