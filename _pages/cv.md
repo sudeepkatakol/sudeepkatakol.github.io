@@ -9,44 +9,45 @@ redirect_from:
 
 {% include base_path %}
 
+Online cv
+======
+* <a href="https://www.cakeresume.com/sudeep-katakol"> View and download cv </a>
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.E. (Hons.) in Computer Science, BITS Pilani, 2020 (expected)
+* M.Sc. (Hons.) in Mathematics, BITS Pilani, 2020 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2017: Data Science Intern
+  * Synclovis Systems Pvt. Ltd., Bangalore, India
+  * Work: Built a Meta Search Engine to serve the needs of middle/high school children.  
+  * <a href="https://sudeepkatakol.github.io/projects/meta_search_engine"> Detailed description </a>
+  
+* Fall 2017: Intern
+  * CR Rao Advanced Institue of Mathematics Computer Science and Statistics, Hyderabad, India
+  * Supervisor: Professor PVS Anand
+  * Work: Approximating the solution to Systems of Differential Equations using Neural Networks.  
+  * <a href="https://sudeepkatakol.github.io/projects/differential_equations"> Detailed description </a> 
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
+* Programming
+  * Python
+  * Tensorflow
+  * Java
+* Leadership
+  * School President 2012-13, St. Antony's Public School, Hubli.
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
 
-Publications
+Projects
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.projets %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
   
 Teaching
 ======
@@ -54,6 +55,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
