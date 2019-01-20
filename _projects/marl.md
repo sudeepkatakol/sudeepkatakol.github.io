@@ -2,7 +2,7 @@
 title: "Multi Agent Reinforcement Learning"
 collection: projects
 type: "Projects"
-permalink: /projects/activity_detection
+permalink: /projects/marl
 location: "Goa, India"
 ---
 * This project was aimed to bring out the evolution of cooperation in our society by examining the cooperative hunting
