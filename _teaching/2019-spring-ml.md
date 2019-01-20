@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "Machine Learning: Teaching Assistant"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2019-spring-ml
