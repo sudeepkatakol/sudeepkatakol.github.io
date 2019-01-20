@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Online CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Online cv
-======
 * <a href="https://www.cakeresume.com/sudeep-katakol"> View and download cv </a>
 
 Education
@@ -39,12 +37,10 @@ Skills
   * Java
 * Leadership
   * School President 2012-13, St. Antony's Public School, Hubli.
-  * Sub-skill 2.2
-  * Sub-skill 2.3
 
 Projects
 ======
-  <ul>{% for post in site.projets %}
+  <ul>{% for post in site.projects %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
