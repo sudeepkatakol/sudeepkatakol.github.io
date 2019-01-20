@@ -247,7 +247,7 @@ defaults:
   # _projects
   - scope:
       path: ""
-      type: projets
+      type: projects
     values:
       layout: single
       author_profile: true
