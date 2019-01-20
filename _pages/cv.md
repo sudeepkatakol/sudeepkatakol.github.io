@@ -21,13 +21,13 @@ Work experience
 * Summer 2017: Data Science Intern
   * Synclovis Systems Pvt. Ltd., Bangalore, India
   * Work: Built a Meta Search Engine to serve the needs of middle/high school children.  
-  * <a href="https://sudeepkatakol.github.io/projects/meta_search_engine"> Detailed description </a>
+  * <a href="https://github.com/sudeepkatakol/MetaSearchEngine"> Github repository </a>
   
 * Fall 2017: Intern
   * CR Rao Advanced Institue of Mathematics Computer Science and Statistics, Hyderabad, India
   * Supervisor: Professor PVS Anand
   * Work: Approximating the solution to Systems of Differential Equations using Neural Networks.  
-  * <a href="https://sudeepkatakol.github.io/projects/differential_equations"> Detailed description </a> 
+  * <a href="https://github.com/sudeepkatakol/DifferentialEquationsUsingANN"> Github repository </a> 
   
 Skills
 ======
