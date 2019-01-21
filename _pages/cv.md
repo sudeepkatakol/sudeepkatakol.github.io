@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-* <a href="https://www.cakeresume.com/sudeep-katakol"> View and download cv </a>
+* <a href="https://drive.google.com/file/d/1ulRiYcGrIk_I4UJvb70mbT-A5t-dtOqk/view"> Download cv </a>
 
 Education
 ======
