@@ -13,8 +13,12 @@ redirect_from:
 
 Education
 ======
-* B.E. (Hons.) in Computer Science, BITS Pilani, 2020 (expected)
-* M.Sc. (Hons.) in Mathematics, BITS Pilani, 2020 (expected)
+* BITS Pilani
+    * 2015 - 2020 (expected)
+    * Majors:
+      * B.E. (Hons.) in Computer Science 
+      * M.Sc. (Hons.) in Mathematics 
+    * CGPA: 9.30 / 10.00
 
 Work experience
 ======
