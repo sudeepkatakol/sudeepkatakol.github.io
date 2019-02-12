@@ -11,3 +11,4 @@ location: "Goa, India"
 
 * Teaching ~40 people the foundations of Machine learning in a series of 2 hour weekly tutorials.
 * Topics: Probability, Bayesian Networks, Decision trees, SVMs, Ensemble methods and Evaluation.
+* Check out the <a href="https://ml-lab-book.github.io/"> course website </a> for more information.
