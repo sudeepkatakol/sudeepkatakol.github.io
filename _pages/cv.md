@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-* Download <a href="https://drive.google.com/file/d/1ulRiYcGrIk_I4UJvb70mbT-A5t-dtOqk/view"> CV </a>
-* Download <a href="https://drive.google.com/file/d/1qD9VC2J2a0RvFAfPTPryaWzBoYtw6Dx_/view"> compact version </a> (without the images)
+* Download <a href="https://drive.google.com/file/d/1qD9VC2J2a0RvFAfPTPryaWzBoYtw6Dx_/view"> CV </a>
 
 Education
 ======
@@ -19,10 +18,15 @@ Education
     * Majors:
       * B.E. (Hons.) in Computer Science 
       * M.Sc. (Hons.) in Mathematics 
-    * CGPA: 9.30 / 10.00
+    * CGPA: 9.37 / 10.00
 
 Work experience
 ======
+* Fall 2019: Interm
+  * Computer Vision Center, Barcelona, Spain
+  * Investigating potential improvements to Variational image compression in multiple aspects including
+performance and semantic knowledge.
+
 * Summer 2017: Data Science Intern
   * Synclovis Systems Pvt. Ltd., Bangalore, India
   * Work: Built a Meta Search Engine to serve the needs of middle/high school children.  
