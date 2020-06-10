@@ -24,7 +24,7 @@ Education
       * M.Sc. (Hons.) in Mathematics 
     * CGPA: 9.43 / 10.00
 
-Projects
+Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
