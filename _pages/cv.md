@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-* Download updated CV <a href="https://drive.google.com/file/d/1qD9VC2J2a0RvFAfPTPryaWzBoYtw6Dx_/view"> here </a>.
+* Download updated CV <a href="https://drive.google.com/file/d/1qD9VC2J2a0RvFAfPTPryaWzBoYtw6Dx_/view">here</a>.
 
 Education
 ======
