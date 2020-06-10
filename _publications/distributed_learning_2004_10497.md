@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/distributed_learning_2004_10497
 excerpt:
 date: 2020-04-22
-venue: 'IEEE Transactions in Image Processing (In Peer Review)'
+venue: 
 paperurl: 'https://arxiv.org/abs/2004.10497'
 ---
+Status: Submitted to IEEE Transactions on Image Processing.
