@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-* Download updated CV <a href="https://drive.google.com/file/d/1qD9VC2J2a0RvFAfPTPryaWzBoYtw6Dx_/view"> here </a> 
+* Download updated CV <a href="https://drive.google.com/file/d/1qD9VC2J2a0RvFAfPTPryaWzBoYtw6Dx_/view"> here </a>.
 
 Education
 ======
 * University of Michigan, Ann Arbor
     * 2020 - 2022
-    * M.S in Electrical and Computer Engineering
+    * M.S. in Electrical and Computer Engineering
 
 * BITS Pilani, Goa, India
     * 2015 - 2020
