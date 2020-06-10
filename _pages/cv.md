@@ -9,34 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
-* Download <a href="https://drive.google.com/file/d/1qD9VC2J2a0RvFAfPTPryaWzBoYtw6Dx_/view"> CV </a>
+* Download updated CV <a href="https://drive.google.com/file/d/1qD9VC2J2a0RvFAfPTPryaWzBoYtw6Dx_/view"> here </a> 
 
 Education
 ======
-* BITS Pilani
-    * 2015 - 2020 (expected)
+* University of Michigan, Ann Arbor
+    * 2020 - 2022
+    * M.S in Electrical and Computer Engineering
+
+* BITS Pilani, Goa, India
+    * 2015 - 2020
     * Majors:
       * B.E. (Hons.) in Computer Science 
       * M.Sc. (Hons.) in Mathematics 
-    * CGPA: 9.37 / 10.00
+    * CGPA: 9.43 / 10.00
 
-Work experience
+Projects
 ======
-* Fall 2019: Interm
-  * Computer Vision Center, Barcelona, Spain
-  * Investigating potential improvements to Variational image compression in multiple aspects including
-performance and semantic knowledge.
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
-* Summer 2017: Data Science Intern
-  * Synclovis Systems Pvt. Ltd., Bangalore, India
-  * Work: Built a Meta Search Engine to serve the needs of middle/high school children.  
-  * <a href="https://github.com/sudeepkatakol/MetaSearchEngine"> Github repository </a>
+Experience
+======
+* Computer Vision Center, Barcelona, Spain
+    * Fall 2019 & Winter 2020: Intern
+   
+* TCS Research, New Delhi, India 
+    * Winter 2019: Undergraduate researcher - Datalab project
   
-* Fall 2017: Intern
-  * CR Rao Advanced Institue of Mathematics Computer Science and Statistics, Hyderabad, India
-  * Supervisor: Professor PVS Anand
-  * Work: Approximating the solution to Systems of Differential Equations using Neural Networks.  
-  * <a href="https://github.com/sudeepkatakol/DifferentialEquationsUsingANN"> Github repository </a> 
+* CR Rao Advanced Institue of Mathematics Computer Science and Statistics, Hyderabad, India
+  * Fall 2017: Intern
+
+* Synclovis Systems Pvt. Ltd., Bangalore, India
+  * Summer 2017: Data Science Intern
   
 Skills
 ======
