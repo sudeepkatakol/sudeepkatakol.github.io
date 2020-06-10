@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : sudeepkatakol1
 facebook:
   username               :
   app_id                 :
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Sudeep Katakol"
   avatar           : "profile.png"
-  bio              : "Computer Science and Mathematics undergrad at BITS Pilani, Goa"
-  location         : "Goa, India"
+  bio              : "Electrical and Computer Engineering Master's student at University of Michigan, Ann Arbor"
+  location         : "Ann Arbor, USA"
   employer         :
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=FO_ShIEAAAAJ&hl=en"
   email            : "f20150001@goa.bits-pilani.ac.in"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Sudeep_Katakol"
   uri              :
   bitbucket        :
   codepen          :
