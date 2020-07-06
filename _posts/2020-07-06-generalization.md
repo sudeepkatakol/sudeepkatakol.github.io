@@ -22,12 +22,7 @@ where $d$ is the _VC dimension_ of the hypothesis class. Similar generalization 
  
 Such bounds explain the typical U-shaped generalization error curve seen with many ML models. However, these bounds are usually vacuous when used with neural networks. Moreover, the same U-shaped curve isn't observed in the case of neural networks. As the number of parameters of the neural network increases, the generalization error decreases quickly and then either decreases very slowly or saturate. The change is usually accompanied by a minor bump in the curve. Seemingly, the additional parameters aren't increasing the effective model capacity of neural networks. 
 
-<figure>
-<center> 
- <img src="https://sudeepkatakol.github.io/images/generalization/generalization_curve.png" width=80%> </img> 
-</center>
-<figcaption> Generalization error v/s Model complexity (image from Prof. Sanjeev Arora's talk)
-</figure>
+{% include image.html url="https://sudeepkatakol.github.io/images/generalization/generalization_curve.png" description="Generalization error v/s Model complexity (image from Prof. Sanjeev Arora's talk)" %}
 
 The conventional understanding is that the hypothesis space of neural networks is actually much smaller. SGD alongwith regularizers constrict the hypothesis space, decreasing the neural net's representational capacity, thus keeping the effective capacity small. This isn't a contradiction to the [_Universal Approximation Theorem_](https://en.wikipedia.org/wiki/Universal_approximation_theorem) as it merely states that any (real, continuous) function can be approximated by neural network, but doesn't provide a way to learn the weights.  
 
@@ -37,12 +32,7 @@ The conventional understanding is that the hypothesis space of neural networks i
 
 The authors show that deep networks are able to perfectly fit randomly assigned labels to real data, resulting in trained networks that don’t generalize. This experiment shows that SGD by itself doesn’t constrain the representational capacity of deep networks. Surprisingly, the nature of the training process (optimization) is very similar to the case when true labels are used and the training time increases only by a factor of 2–3.
 
-<figure>
-<center>  
- <img src="https://sudeepkatakol.github.io/images/generalization/randomization_tests.png" width=50%> </img>  
- </center>
-<figcaption> Results of randomization tests
-</figure>
+{% include image.html url="https://sudeepkatakol.github.io/images/generalization/randomization_tests.png" description="Results of randomization tests" %}
 
 Given that deep neural networks have sufficient representational capacity, why is it that neural nets are able to learn “good” solutions that generalize well. One hypothesis is that explicit regularizers and/or implicit regularizers push the SGD optimization towards these good solutions. Indeed, we all know that explicit regularizers like weight decay and dropout can help in achieving a better test performance. But, we also know that we achieve good generalization even without these explicit regularizations. Hence, explicit regularizers can’t be the fundamental reason why deep neural networks generalize. This is exactly what the authors confirm through their experiments. Further, they also show that often improving the model architecture is enough to get a better generalization performance than adding these regularizers.
 
