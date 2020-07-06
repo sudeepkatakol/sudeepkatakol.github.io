@@ -1,7 +1,8 @@
 ---
-title: 'Generalization'
-date: 2020-07-07
+title: 'On ‘Understanding Deep Learning Requires Rethinking Generalization’'
+date: 2020-07-06
 permalink: /posts/2020-07-generalization/
+
 ---
 {% include base_path %}
 
