@@ -33,7 +33,7 @@ The conventional understanding is that the hypothesis space of neural networks i
 
 The authors show that deep networks are able to perfectly fit randomly assigned labels to real data, resulting in trained networks that don’t generalize. This experiment shows that SGD by itself doesn’t constrain the representational capacity of deep networks. Surprisingly, the nature of the training process (optimization) is very similar to the case when true labels are used and the training time increases only by a factor of 2–3.
 
-{% include image.html url="https://sudeepkatakol.github.io/images/generalization/randomization_tests.png" description="Results of randomization tests" width="50%" %}  
+{% include image.html url="https://sudeepkatakol.github.io/images/generalization/randomization_tests.png" description="Results of randomization tests" width="80%" %}  
 
 Given that deep neural networks have sufficient representational capacity, why is it that neural nets are able to learn “good” solutions that generalize well. One hypothesis is that explicit regularizers and/or implicit regularizers push the SGD optimization towards these good solutions. Indeed, we all know that explicit regularizers like weight decay and dropout can help in achieving a better test performance. But, we also know that we achieve good generalization even without these explicit regularizations. Hence, explicit regularizers can’t be the fundamental reason why deep neural networks generalize. This is exactly what the authors confirm through their experiments. Further, they also show that often improving the model architecture is enough to get a better generalization performance than adding these regularizers.
 
