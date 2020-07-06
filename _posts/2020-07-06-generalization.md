@@ -23,7 +23,9 @@ where $d$ is the _VC dimension_ of the hypothesis class. Similar generalization 
 Such bounds explain the typical U-shaped generalization error curve seen with many ML models. However, these bounds are usually vacuous when used with neural networks. Moreover, the same U-shaped curve isn't observed in the case of neural networks. As the number of parameters of the neural network increases, the generalization error decreases quickly and then either decreases very slowly or saturate. The change is usually accompanied by a minor bump in the curve. Seemingly, the additional parameters aren't increasing the effective model capacity of neural networks. 
 
 <figure>
-<center><img src="https://sudeepkatakol.github.io/images/generalization/generalization_curve.png" width=80%> </img> </center>
+<center> 
+ <img src="https://sudeepkatakol.github.io/images/generalization/generalization_curve.png" width=80%> </img> 
+</center>
 <figcaption> Generalization error v/s Model complexity (image from Prof. Sanjeev Arora's talk)
 </figure>
 
@@ -36,7 +38,9 @@ The conventional understanding is that the hypothesis space of neural networks i
 The authors show that deep networks are able to perfectly fit randomly assigned labels to real data, resulting in trained networks that don’t generalize. This experiment shows that SGD by itself doesn’t constrain the representational capacity of deep networks. Surprisingly, the nature of the training process (optimization) is very similar to the case when true labels are used and the training time increases only by a factor of 2–3.
 
 <figure>
-<center><img src="https://sudeepkatakol.github.io/images/generalization/randomization_tests.png" width=50%> </img> </center>
+<center>  
+ <img src="https://sudeepkatakol.github.io/images/generalization/randomization_tests.png" width=50%> </img>  
+ </center>
 <figcaption> Results of randomization tests
 </figure>
 
