@@ -6,7 +6,7 @@ permalink: /posts/2020/07/22/dl_theory_icml_2020/
 ---
 {% include base_path %}
 
-This post is intended to serve as a quick summary of the advancements made in theoretical deep learning that were presented at ICML 2020. You are encouraged to check the paper (linked with the title) that interests you most. In this blog, I discuss four of my favorites from the conference:
+This post is intended to serve as a quick summary of the advancements made in theoretical deep learning that were presented at ICML 2020. You are encouraged to check the paper (linked with the title) that interests you the most. In this blog, I discuss four of my favorites from the conference:
 
 1. [Rethinking bias-variance trade-off for generalization of neural networks](#rethinking-bias-variance-trade-off-for-generalization-of-neural-networks)
 2. [Dynamics of Deep Neural Networks and Neural Tangent Hierarchy](#dynamics-of-deep-neural-networks-and-neural-tangent-hierarchy)
@@ -16,7 +16,7 @@ This post is intended to serve as a quick summary of the advancements made in th
 
 ## [Rethinking bias-variance trade-off for generalization of neural networks](https://proceedings.icml.cc/static/paper_files/icml/2020/2946-Paper.pdf)
 
-Neural networks are heavily overparameterized models and going by classical theory, such models shouldn't generalize. This paper is a step forward in the goal of demystifing the generalization puzzle in deep learning. Concretely, this paper studies the bias-variance curves for neural networks with varying number of parameters and shows that variance behaves differently to what the classical theory suggests.
+Neural networks are heavily overparameterized models and if we are to go by classical theory, such models shouldn't generalize. This paper is a step forward in the goal of demystifying the generalization puzzle in deep learning. Concretely, this paper studies the bias-variance curves for neural networks with varying number of parameters and shows that variance behaves differently to what the classical theory suggests.
 
 ### Classical idea: _Monotonic bias, Monotonic variance_
 
@@ -31,7 +31,7 @@ But this U-shaped risk curve isn't seen in deep learning. Increasing width or de
 
 We typically observe montonically decreasing risk (no peaks) or a small bump (short overfitting regime) with real-world data. However, when label noise is injected in data double descent curves are clearly seen. 
 
-### Proposed idea: _Unimodal variance_ (_alongwith Montonic bias_)
+### Proposed idea: _Unimodal variance_ (_along with Montonic bias_)
 
 Now, the authors are interested in the behavior of bias and variance curves in deep learning. They propose that the variance curve is actually unimodal and not monotonic, while the bias curve is montonically decreasing. The unimodal behavior of variance essentially means that variance increases, peaks and then decreases with model complexity. Depending on the relative magnitude of the $\textrm{Bias}^2$ and $\textrm{Variance}$, one the following $\textrm{Risk}$ curves can be observed:
 
@@ -39,7 +39,7 @@ Now, the authors are interested in the behavior of bias and variance curves in d
 
 The unimodal behavior of variance explains why we see double descent. The risk curve depicted in Case 2 in the figure above exhibits double descent behavior. 
 
-By computing the value of variance for models of varying capacity across multiple computer vision datasets, the authors emprically prove  that variance is indeed unimodal. However, the authors don't provide an explanation as to why variance behaves in this manner. 
+By computing the value of variance for models of varying capacity across multiple computer vision datasets, the authors empirically prove  that variance is indeed unimodal. However, the authors don't provide an explanation as to why variance behaves in this manner. 
 
 {% include image.html url="https://i.ibb.co/PmPL0Vv/4.png" description="Experimental Results validating the occurence of unimodal variance." width="100%" %}  
 
@@ -47,7 +47,7 @@ By computing the value of variance for models of varying capacity across multipl
 
 We know that, $\textrm{Risk} = \textrm{Bias}^2 + \textrm{Variance}$. You can take a look at the paper for the exact bias-variance decomposition for MSE and Cross Entropy losses. 
 
-*One of the ways* $\textrm{Variance}$ is estimated is descrbed below:
+*One of the ways* $\textrm{Variance}$ is estimated is described below:
 - Split the training dataset, $D$ into two halves $D_1$ and $D_2$.
 - Train classifiers $f_1$ and $f_2$ on $D_1$ and $D_2$ respectively.
 - Unbiased estimator of $\textrm{Variance}$ is given by $\frac{1}{2} (f_1(x) - f_2(x))^2$. 
@@ -113,7 +113,8 @@ The MSE loss function is considered,
 **Loss function:** $\displaystyle L(\theta) = \frac{1}{2n}\sum_{1}^{n} (f(x_i, \theta) - y_i)^2$
 
 The dynamics of the parameters are given by their gradient wrt the loss function, <br/>
-    $\displaystyle \partial_{t} W^{(l)}_{t} = - \; \partial_{W^{(l)}} L(\theta_t) \quad \partial_{t} a_{t} = - \; \partial_{a} L(\theta_t)$
+<center> $\displaystyle \partial_{t} W^{(l)}_{t} = - \; \partial_{W^{(l)}} L(\theta_t) \quad \partial_{t} a_{t} = - \; \partial_{a} L(\theta_t)$ </center>
+
 
 Recent works study the training dynamic in the _trajectory_ space instead of _parameter_ space as the trajectory space is compact $(\mathbb R^n)$ and easier to interpret.
 
@@ -209,7 +210,7 @@ The truncated neural tangent hierarchy at $p$, approximates the dynamic of the f
 
 **The conjecture**:
 
-This slide from the author's presenation states their conjecture: _Truncated NTH generalizes better with increasing $p$_.
+This slide from the author's presentation states their conjecture: _Truncated NTH generalizes better with increasing $p$_.
 
 {% include image.html url="https://i.ibb.co/tsPmgGT/11.png" description=" " width="55%" %}  
 
@@ -234,11 +235,11 @@ _Subnetwork_:
 Here, $B_{l}$ is a binary matrix of the same size as $W_{l}$ and $\sigma$ denotes the ReLU activation function.
 
 
- **(Weak) Lottery ticket Hypothesis**: Consider a randomly initialized network, $N$. $N$ contains a subnetwork $n$ such that when $n$ is trained in isolation it achieves the same performance as (trained) $N$ using atmost the same number of iterations.
+ **(Weak) Lottery ticket Hypothesis**: Consider a randomly initialized network, $N$. $N$ contains a subnetwork $n$ such that when $n$ is trained in isolation it achieves the same performance as (trained) $N$ using at most the same number of iterations.
 
-But, starting with $n$ is entering like entering the lottery with just one ticket. There's a very small chance (close to $0$) that $n$ has the right initialization of parameters to achieve the same performance. A bigger network $N$ contains (exponentially) many small subnetworks, $n$ (many random intializations *i.e.* many lottery tickets) which ensures that you are achieve a good performance when trained. 
+But, starting with $n$ is entering like entering the lottery with just one ticket. There's a very small chance (close to $0$) that $n$ has the right initialization of parameters to achieve the same performance. A bigger network $N$ contains (exponentially) many small subnetworks, $n$ (many random initializations *i.e.* many lottery tickets) which ensures that you are achieve a good performance when trained. 
  
- **(Strong) Lottery ticket Hypothesis**:  Let $F$ be a fixed target network and let $N$ be a network obtained by overparametrizing $F$. When $N$ is randomly initialized, it contains a subnetwork, $n$, that performes as good as the target network $F$. 
+ **(Strong) Lottery ticket Hypothesis**:  Let $F$ be a fixed target network and let $N$ be a network obtained by overparametrizing $F$. When $N$ is randomly initialized, it contains a subnetwork, $n$, that performs as good as the target network $F$. 
 
 {% include image.html url="https://i.ibb.co/LPvkHRp/lth-pruning-1.png" description="Strong LTH" width="45%" %}  
 
@@ -249,7 +250,7 @@ Moreover, I found the nomenclature to be a bit confusing. In mathematics, if you
 
 Denote the width of the network, $F$, by $w$ and it's depth by $d$. The authors prove the strong LTH for $N$ with width, $W = \textrm{polynomial}(w, d)$, and depth, $D = 2d$. Their proof method relies on pruning. Essentially, you can prune $N$ to obtain $n$ which approximates $F$. 
 
-So, if I know that a 10-layer network with width 100 would be sufficient from achieving good performance for a task, can I randomly initialize a network, $N$ with depth 2*10 and width $poly(100, 10)$ and prune it to obtain the desired subnetwork? Well, you could. But pruning the network, $N$ would be computationally as hard as training it.
+So, if I know that a 10-layer network with width 100 would be sufficient from achieving good performance for a task, can I randomly initialize a network, $N$ with depth 2*10 and width $polynomial(100, 10)$ and prune it to obtain the desired subnetwork? Well, you could. But pruning the network, $N$ would be computationally as hard as training it.
 
 ## [Linear Mode Connectivity and the Lottery Ticket Hypothesis](https://proceedings.icml.cc/static/paper_files/icml/2020/5787-Paper.pdf)
 
