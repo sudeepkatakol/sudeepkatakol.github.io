@@ -14,7 +14,7 @@ redirect_from:
 Education
 ======
 * University of Michigan, Ann Arbor
-    * 2020 - 2022
+    * 2021 - 2022
     * M.S. in Electrical and Computer Engineering
 
 * BITS Pilani, Goa, India
@@ -33,7 +33,7 @@ Publications
 Experience
 ======
 * Computer Vision Center, Barcelona, Spain
-    * Fall 2019 & Winter 2020: Intern
+    * Fall 2019, Winter 2020 and Fall 2021: Intern
    
 * TCS Research, New Delhi, India 
     * Winter 2019: Undergraduate researcher - Datalab project
