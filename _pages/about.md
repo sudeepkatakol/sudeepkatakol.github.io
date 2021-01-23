@@ -8,12 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hey, I'm Sudeep Katakol.
+Hey, I'm Sudeep.
+I'm currently pursuing my Master's in Electrical and Computer Engineering (Machine learning) at the University of Michigan, Ann Arbor. I graduated from BITS Pilani, Goa, India with dual majors in Computer Science and Mathematics in 2020. 
 
-I am currently pursuing my Bachelors in Computer Science and Masters in Mathematics at BITS Pilani, Goa, India. 
+My current research interests revolve around the theory of deep neural networks. While deep learning is used ubiquitously, we seldom fully understand why it works so well. During my graduate studies, I intend to work towards demystifying the role of neural networks in many of their applications. 
 
-I wish to pursue research in the field of Machine learning. My long term goal would be to build interpretable and explainable models for learning from data. 
+Prior to joining the University of Michigan, I interned at the Computer Vision Center, Barcelona where I was fortunate to work with Dr. Luis Herranz, Dr. Joost van de Weijer and Dr. Antonio M. López. During the course of one-and-a-half years, I worked on image compression, transfer learning, continual learning and generative models. 
 
-I am also interested in the field of Abstract Algebra.
-
-I also love playing Cricket, Badmintion and Chess.
+I'm also a huge sports enthusiast; I particularly love playing cricket, badmintion and chess.
